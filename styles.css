@@ -13,3 +13,11 @@ marquee {
 body {
   background-color: black;
 }
+.centered {
+  width: 1080px;
+  height: 1920px;
+}
+
+.centered {
+  font-size: 72px;
+}
