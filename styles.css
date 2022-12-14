@@ -1,62 +1,30 @@
-h1 {
-  margin-bottom: 10px;
+/* Base styles for the body element */
+body {
+  background-color: black;
 }
 
-p {
-  margin-top: 10px;
-}
-h2 {
-  margin-bottom: 10px;
-}
-
-p {
-  font-style: italic;
-  font-size: 20px;
-  line-height: 1.5;
-}
-
-
+/* Styles for the centered class */
 .centered {
+  width: 1080px;
+  height: 1920px;
   text-align: center;
   color: white;
 }
 
-marquee {
-  height: 90vh;
-  width: 160vw;
-  background-color: black;
-  color: white;
-}
-
-body {
-  background-color: black;
-}
-.centered {
-  width: 1080px;
-  height: 1920px;
-}
-
-.centered {
-  font-size: 72px;
-}
-h2 {
-  font-size: 50px;
-}
-
-p {
-  font-size: 25px;
-}
+/* Styles for the youtube-link class */
 .youtube-link {
   display: inline-block;
-  font-size: 50px;
+  font-size: 45px;
   padding: 8px;
-  background-color: white;
+  background-color: #cc181e;
   color: white;
   border-radius: 8px;
   width: 600px;
   height: 50px;
   font-weight: bold;
 }
+
+/* Styles for the instagram-link class */
 .instagram-link {
   font-size: 20px;
   padding: 4px;
@@ -64,37 +32,51 @@ p {
   height: 25px;
 }
 
+/* Styles for the marquee element */
+marquee {
+  height: 90vh;
+  width: 160vw;
+  background-color: black;
+  color: white;
+}
+
+/* Styles for the h1 element */
+h1 {
+  font-size: 72px;
+  margin-bottom: 10px;
+}
+
+/* Styles for the h2 element */
+h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+/* Styles for the p element */
+p {
+  font-size: 50px;
+  margin: 20px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Styles for the a element */
 a {
   color: white;
   text-decoration: none;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
 }
 
-
-
-a {
-  color: white;
-}
 a::before,
 a::after {
   content: "";
   position: absolute;
   width: 10px;
   height: 10px;
- 
-}
-a {
-  font-weight: bold;
-  font-size: 20px;
-  color: white;
-}
-.youtube-link {
-  font-size: 45px;
-  background-color: #cc181e;
-}
-p {
-  font-weight: bold;
-  font-size: 20px;
-  text-align: center;
 }
 
 a::before {
@@ -102,14 +84,4 @@ a::before {
   left: 0;
 }
 
-a::after {
-  bottom: 0;
-  right: 0;
-}
-a {
-  font-family: "Helvetica Neue", sans-serif;
-}
-p {
-  font-size: 50px;
-  margin: 20px;
-}
+<p class="love-you">&#x1F49B; LOVE YOU &#x1F49B;</p>
