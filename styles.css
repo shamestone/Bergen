@@ -1,53 +1,29 @@
-/* styles for all devices */
-body {
-  font-size: 18px; /* increased the font size */
-  text-align: center; /* centered the text */
-}
-.element {
+
+<style>
+.centered {
   text-align: center;
-  font-size: 32px;
-  background-image: url("shame.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  color: white;
 }
 
-@media only screen and (max-width: 768px) {
-  .element {
-    background-size: cover;
-  }
+body {
+  background-color: black;
+}
+</style>
+marquee {
+  height: 90vh;
+  width: 160vw;
 }
 
-/* styles for mobile devices */
-@media only screen and (max-width: 600px) {
-  body {
-    font-size: 14px;
-  }
-.element {
-  width: 90vw;
-  height: 160vh;
-}
 
-}
 
-/* styles for desktop devices */
-@media only screen and (min-width: 601px) {
-  body {
-    font-size: 20px; /* increased the font size */
-  }
-}
+<marquee direction="up" style="height: 90vh; width: 160vw; background-color: black; color: white;">
+  <h1>Skammestein</h1>
+  <h2>Share Your Shame</h2>
+  <p>If you find this stone, we invite you to take this stone with you and use it as a way to release your shame and negativity. You could keep it with you as a reminder to let go of these harmful emotions, or even use it as a talisman to protect you from negative energy. We also encourage you to leave the stone in a public place for others to find and use in the same way. You could leave it on a park bench, on a hiking trail, or even in a bookstore. Wherever you decide to leave it, just remember to be respectful and considerate of others. The stone is geotagged, so it can be located by others if they are looking for it.We hope you find comfort and peace through this stone, and that it brings you and others healing and joy.</p>
+ 
 
-.element {
-  background-image: url("shame.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
+<a href="https://www.instagram.com/" target="_blank">#shamestonebergen</a>
+<br>
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Today is the best day!</a>
 
-@media only screen and (max-width: 768px) {
-  .element {
-    background-size: cover;
-  }
-}
+</marquee>
