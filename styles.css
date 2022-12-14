@@ -39,10 +39,17 @@ p {
   height: 40px;
 }
 
-
 .shamestonebergen-link {
-  color: blue;
+  display: inline-block;
+  font-size: 30px;
+  padding: 8px;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  width: 300px;
+  height: 40px;
 }
+
 p {
   font-size: 35px;
   margin: 20px;
