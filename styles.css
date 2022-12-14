@@ -1,3 +1,21 @@
+h1 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 10px;
+}
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  font-style: italic;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+
 .centered {
   text-align: center;
   color: white;
@@ -35,7 +53,7 @@ p {
   background-color: white;
   color: black;
   border-radius: 8px;
-  width:  700px;
+  width: 600px;
   height: 50px;
   font-weight: bold;
 }
