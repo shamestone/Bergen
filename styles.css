@@ -1,11 +1,11 @@
 /* styles for all devices */
 body {
-  font-size: 18px; /* increased the font size */
+  font-size: 32px; /* increased the font size */
   text-align: center; /* centered the text */
 }
 .element {
   text-align: center;
-  font-size: 32px;
+  font-size: 52px;
   background-image: url("shame.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -22,7 +22,7 @@ body {
 /* styles for mobile devices */
 @media only screen and (max-width: 600px) {
   body {
-    font-size: 14px;
+    font-size: 30px;
   }
 .element {
   width: 90vw;
@@ -34,7 +34,7 @@ body {
 /* styles for desktop devices */
 @media only screen and (min-width: 601px) {
   body {
-    font-size: 20px; /* increased the font size */
+    font-size: 40px; /* increased the font size */
   }
 }
 
