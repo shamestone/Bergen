@@ -3,12 +3,32 @@ body {
   font-size: 18px; /* increased the font size */
   text-align: center; /* centered the text */
 }
+.element {
+  text-align: center;
+  font-size: 32px;
+  background-image: url("shame.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+@media only screen and (max-width: 768px) {
+  .element {
+    background-size: cover;
+  }
+}
 
 /* styles for mobile devices */
 @media only screen and (max-width: 600px) {
   body {
     font-size: 14px;
   }
+.element {
+  width: 90vw;
+  height: 160vh;
+}
+
 }
 
 /* styles for desktop devices */
