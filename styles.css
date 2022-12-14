@@ -65,7 +65,7 @@ h1 {
 
 /* Styles for the p element */
 p {
-  font-size: 30px; /* decrease the font size to 30px */
+  font-size: 45px; /* decrease the font size to 30px */
   margin: 20px;
   font-weight: bold;
   font-style: italic;
@@ -96,4 +96,3 @@ a::before {
 }
 
 <p class="love-you">&#x1F49B; LOVE YOU &#x1F49B;</p>
-
