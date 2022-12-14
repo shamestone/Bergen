@@ -39,21 +39,7 @@ p {
   height: 40px;
 }
 
-.shamestonebergen-link {
-  display: inline-block;
-  font-size: 30px;
-  padding: 8px;
-  background-color: white;
-  color: black;
-  border-radius: 8px;
-  width: 300px;
-  height: 40px;
-}
 
-p {
-  font-size: 50px;
-  margin: 20px;
-}
 a {
   color: white;
 }
@@ -77,4 +63,8 @@ a::after {
 }
 a {
   font-family: "Helvetica Neue", sans-serif;
+}
+p {
+  font-size: 50px;
+  margin: 20px;
 }
