@@ -42,19 +42,30 @@ marquee {
 
 /* Styles for the h1 element */
 h1 {
-  font-size: 72px;
+  font-size: 75px;
   margin-bottom: 10px;
 }
 
-/* Styles for the h2 element */
-h2 {
-  font-size: 50px;
+
+
+/* Styles for the p element */
+p {
+  font-size: 40px;
+  margin: 20px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.5;
+  text-align: center;
+}
+/* Styles for the h1 element */
+h1 {
+  font-size: 150px; /* increase the font size to 100px */
   margin-bottom: 10px;
 }
 
 /* Styles for the p element */
 p {
-  font-size: 50px;
+  font-size: 30px; /* decrease the font size to 30px */
   margin: 20px;
   font-weight: bold;
   font-style: italic;
@@ -85,3 +96,4 @@ a::before {
 }
 
 <p class="love-you">&#x1F49B; LOVE YOU &#x1F49B;</p>
+
