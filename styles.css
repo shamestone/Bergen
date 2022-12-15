@@ -10,6 +10,13 @@ body {
   text-align: center;
   color: white;
 }
+/* Styles for the flag emoji */
+a.flag {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 100px; /* increase the font size to 100px */
+}
 
 /* Styles for the youtube-link class */
 .youtube-link {
