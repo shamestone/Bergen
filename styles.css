@@ -14,8 +14,8 @@ body {
 a.flag {
   position: absolute;
   top: 0;
-  right: 0;
-  font-size: 100px; /* increase the font size to 100px */
+  right: 10;
+  font-size: 60px; /* increase the font size to 100px */
 }
 
 /* Styles for the youtube-link class */
