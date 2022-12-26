@@ -2,14 +2,6 @@
 body {
   background-color: black;
 }
-
-/* Styles for the centered class */
-.centered {
-  width: 1080px;
-  height: 1920px;
-  text-align: center;
-  color: white;
-}
 /* Styles for the flag emoji */
 a.flag {
   position: absolute;
@@ -18,16 +10,24 @@ a.flag {
   font-size: 50px; /* increase the font size to 100px */
 }
 
+/* Styles for the centered class */
+.centered {
+  width: 1080px;
+  height: 1920px;
+  text-align: center;
+  color: white;
+}
+
 /* Styles for the youtube-link class */
 .youtube-link {
   display: inline-block;
-  font-size: 40px;
+  font-size: 25px;
   padding: 8px;
   background-color: #cc181e;
   color: white;
   border-radius: 8px;
   width: 600px;
-  height: 50px;
+  height: 35px;
   font-weight: bold;
 }
 
@@ -103,4 +103,3 @@ a::before {
 }
 
 <p class="love-you">&#x1F49B; LOVE YOU &#x1F49B;</p>
-
